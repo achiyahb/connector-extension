@@ -1,0 +1,96 @@
+#container {
+    margin: 0;
+    padding: 1.5rem;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    margin-top: 0;
+}
+
+p {
+    font-size: 1.25rem;
+    margin-bottom: 0.6rem;
+}
+
+span {
+    font-size: 1.25rem;
+    margin-bottom: 0.6rem;
+}
+
+button{
+    font-size: 1rem;
+    background-color: #00ff00;
+    color: white;
+}
+select{
+    font-size: 1rem;
+}
+input{
+    font-size: 1rem;
+}
+
+.positive{
+    color: #85bf31;
+}
+
+.negative{
+    color: red;
+}
+
+.terms{
+    cursor: pointer;
+}
+
+.terms:hover{
+    font-size: 1.45rem;
+    transition: all .4s ease;
+}
+#header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+#popup{
+    width: 23rem;
+    background-color: #00ffff;
+    min-height: 32rem;
+}
+
+a{
+    text-decoration-line: none;
+    color: black;
+}
+
+.otherTab{
+    background-color: #ff0080;
+    padding-bottom: 0.5rem;
+    color: white;
+    border-left: solid #00ffff;
+}
+
+.tagText{
+    margin-left: 1rem;
+}
+
+.tab{
+    margin-top: 10px;
+}
+
+button:disabled,
+button[disabled]{
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+}
+
+#withdrawSection{
+    margin-top: 1rem;
+}
+
+#conditionWith{
+    margin-top: 1rem;
+}

@@ -1,0 +1,20 @@
+{
+  "name" : "connector",
+  "version" : "1.0",
+  "manifest_version" : 3,
+  "content_scripts" : [{
+    "matches": ["https://www.linkedin.com/mynetwork/"],
+    "js": ["connectToDevsScrollCorrectly.js"]
+  }],
+  "browser_action" : {
+    "default_popup" : "popup.html",
+    "default_title" : "Connect",
+    "default_icon": "redflag.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "debugger"
+  ]
+}
